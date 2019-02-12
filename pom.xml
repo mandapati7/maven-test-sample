@@ -55,6 +55,26 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/findbugs-maven-plugin -->
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>findbugs-maven-plugin</artifactId>
+				<version>3.0.5</version>
+			</plugin>
+			
+			<plugin>
+				<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/findbugs-maven-plugin -->
+				<groupId>org.apache.maven.plugins</groupId>
+    				<artifactId>maven-pmd-plugin</artifactId>
+    				<version>3.11.0</version>
+			</plugin>
+			
+			<plugin>
+				<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/findbugs-maven-plugin -->
+				<groupId>org.apache.maven.plugins</groupId>
+    				<artifactId>maven-checkstyle-plugin</artifactId>
+    				<version>3.0.0</version>
+			</plugin>
 		</plugins>
 	</build>
 </project>
